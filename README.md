@@ -1,9 +1,6 @@
 # wk5_disc
 
-The module I chose to introduce for this weeks extra credit is the:
-
-Python 'time' module.
-
+The module I chose to introduce for this weeks extra credit is the: Python 'time' module.
 
 
 This is a standard library module, no installation is needed. Simply:
