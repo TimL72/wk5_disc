@@ -1,19 +1,22 @@
+"""current date and time"""
 >>> import time
 >>> print time.asctime()
 Fri Sep 22 19:09:44 2017
 
 
-"""length of time the process takes to run this function"""
+"""length of time the computer processor takes to run this function; as a floating point, in microseconds"""
 >>> import time
 >>> print time.clock()
 0.398866
 
 
-"""Time in seconds since the epoch started."""
-"""Aparently Python uses unix time. The unix epoch began at 00:00:01 the morning of Jan 1, 1970."""
+"""Time in seconds since the epoch started.
+Aparently Python uses unix time. The unix epoch began at 00:00:00 the morning of Jan 1, 1970.
+And will end at 03:14:08 GMT on Jan 19, 2038. = the Year 2038 problem.
+"""
 >>> import time
 >>> print time.time()
-1506121370.66 seconds   (this = 17431.96 days or 47.73 years since the epoch started)
+1506121370.66 seconds   (this equals 17431.96 days, or 47.73 years, since the epoch started)
 
 
 """local time"""
@@ -26,7 +29,7 @@ tm_yday=265, tm_isdst=1
 """Determine if in a daylight savings timezone. If so, return = 1"""
 >>> import time
 >>> print time.daylight
-1                        (played with this, didn't come up with a way to import a non-DST time zone)
+1                        (played with this, didn't come up with a way to import a non-DST time zone?)
 
 
 """Sleep - Suspends the current execution for the input number of seconds)
