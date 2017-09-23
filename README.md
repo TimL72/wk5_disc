@@ -4,7 +4,7 @@ The module I chose to introduce for this weeks extra credit is the: Python 'time
 
 
 This is a standard library module, no installation is needed. Simply:
->>> import time
+'>>> import time'
 
 
 The python.org library:
